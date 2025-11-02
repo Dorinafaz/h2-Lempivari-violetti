@@ -63,10 +63,11 @@ Tämän jälkeen suoritin komennon:
 "sudo nmap -A localhost" komento tekee jaana palvelin- ja versiotunnistuksen paikallisesta koneesta (localhost = 127.0.0.1).
 
 Selitys mitä kohdat tarkoittavat:
-**Not shown: 998 closed ports** -> nmap skannasi 1000 porttia oletuksena, suurin osa suljettuja.
-**PORT STATE SERVICE VERSION** -> näyttää avoimet portit, palvelun ja version (jos tunnistettu).
-**|_http-title: Apache2...** -> NSE-skriptin tulos (http-title). Tämä on merkki siitä että -A on suorittanut HTTP-skriptejä.
-**OS details** -> nmapin yritys päätellä käyttöjärjestelmää.
+
+- **Not shown: 998 closed ports** -> nmap skannasi 1000 porttia oletuksena, suurin osa suljettuja.
+- **PORT STATE SERVICE VERSION** -> näyttää avoimet portit, palvelun ja version (jos tunnistettu).
+- **|_http-title: Apache2...** -> NSE-skriptin tulos (http-title). Tämä on merkki siitä että -A on suorittanut HTTP-skriptejä.
+- **OS details** -> nmapin yritys päätellä käyttöjärjestelmää.
 
 ## c) Skriptit
 
